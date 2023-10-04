@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <title>Halaman Awal</title>
+</head>
+
+<body>
+  <navbar class="container">
+    <div class="logo">
+      <img id="logo-itera" src="logo_itera.png" alt="Logo" />
+    </div>
+    <div class="button-navbar">
+      <a href="120140208_Marchell Manurung.html"><button class="button-home">Home</button></a>
+      <a href="myProfile.html"><button class="button-myProfile">My Profile</button></a>
+      <!-- <a href="profileRevou.html"><button class="button-portofolio">Portofolio</button></a> -->
+      <a href="message.html"><button class="button-messageUs">Message Us</button></a>
+    </div>
+  </navbar>
+
+  <section class="title">
+    <div class="title-text">
+      <h1 class="formBelajar">Hallo <span id="nama"></span> , Selamat Datang di Website Ini</h1>
+      <p>Website Latihan Praktikum Pemrograman Website</p>
+      <img src="Nico Robin Wallpaper HD.jpg" alt="RobinChan" width="100%" height="100%" title="Nico Robin">
+    </div>
+  </section>
+  <script>
+    var name = prompt("Masukan Nama Kamu");
+    document.getElementById("nama").innerText = name;
+  </script>
+  <br><br>
+  <h1 class="text-ourHeadquarter">Our Headquarter</h1>
+  <figure class="image-headquarter-group">
+    <div class="image-headquarter-location-group">
+      <img class="image-headquarter" src="Monas.jpg" alt="Monas" />
+      <p class="text-headquarterLocation">Jakarta</p>
+    </div>
+    <div class="image-headquarter-location-group">
+      <img class="image-headquarter" src="Bandung.jpg" alt="Gedung Sate" />
+      <p class="text-headquarterLocation">Bandung</p>
+    </div>
+    <div class="image-headquarter-location-group">
+      <img class="image-headquarter" src="Surabaya.jpg" alt="Patung Suro dan Boyo" />
+      <p class="text-headquarterLocation">Surabaya</p>
+    </div>
+  </figure>
+  <div class="video-container">
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+      <!--Tambahkan sumber video lain jika diperlukan-->
+      Maaf, browser Anda tidak mendukung pemutaran video.
+    </video>
+  </div>
+</body>
+
+</html>
