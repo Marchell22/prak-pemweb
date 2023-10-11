@@ -1,0 +1,86 @@
+.container {
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    background-color: aquamarine;
+}
+
+.head {
+    padding: 20px;
+    display: flex;
+    background-color: gray;
+    justify-content: start;
+    align-items: center;
+}
+
+.gambar {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+}
+
+.side {
+    margin-left: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: aquamarine;
+
+}
+
+.menu {
+    list-style: none;
+    padding: 20px;
+}
+
+.tentang {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tentang h2 {
+    color: black;
+}
+
+.tentang div {
+    display: flex;
+    justify-content: center;
+}
+
+.tentang video {
+    width: 300px;
+
+}
+
+.pengalaman {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pengalaman table {
+    width: 100%;
+}
+
+.form {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+.button{
+    /* background-color: bisque; */
+    color: black;
+    padding : 40px;
+}
