@@ -1,0 +1,41 @@
+<!--by Marchell Manurng - 120140208 - Prak RB -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menghitung Bilangan Ganjil dan Genap</title>
+</head>
+
+<body>
+    <h1>Menghitung Bilangan Ganjil dan Genap</h1>
+    <input type="number" id="angkaInput" placeholder="Masukkan angka" />
+    <button onclick="hitungBilangan()">Hitung</button>
+    <p>Jumlah Bilangan Ganjil: <span id="jumlahGanjil">0</span></p>
+    <p>Jumlah Bilangan Genap: <span id="jumlahGenap">0</span></p>
+
+    <script>
+        function hitungBilangan() {
+            var input = parseInt(document.getElementById("angkaInput").value);
+            if (isNaN(input)) {
+                alert("Masukkan angka yang valid.");
+                return;
+            }
+
+            var jumlahGanjil = 0;
+            var jumlahGenap = 0;
+
+            for (var i = 1; i <= input; i++) {
+                if (i % 2 === 0) {
+                    jumlahGenap++;
+                } else {
+                    jumlahGanjil++;
+                }
+            }
+
+            document.getElementById("jumlahGanjil").textContent = jumlahGanjil;
+            document.getElementById("jumlahGenap").textContent = jumlahGenap;
+        }
+    </script>
+</body>
+
+</html>
